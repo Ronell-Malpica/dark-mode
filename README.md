@@ -1,4 +1,4 @@
-# practice-dark-mode
+# dark-mode
 Realizando reto de Frontend Mentor con Sass y JS. 
 
 * Demo:  [https://ronell-malpica.github.io/practice-dark-mode/](https://ronell-malpica.github.io/practice-dark-mode/)
