@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="./static/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>social media dashboard</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-grid">
+          <div class="header-container">
+            <h1 class="header-title">
+              Social Media Dashboard
+            </h1>
+            <p class="header-sub-title">
+              Total Followers: 23,004
+            </p>
+          </div>
+          <div class="dark-mode">
+            <p class="dark-mode-title">
+              Dark Mode
+            </p>
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox"
+              class="desactive"
+            />
+            <label for="checkbox" class="switch"> </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section-a">
+      <div class="wrapper">
+        <div class="grid">
+          <article class="big-card">
+            <div class="border border-facebook"></div>
+            <p class="big-card-title">
+              <img
+                src="./static/img/icon-facebook.svg"
+                alt="logo icon-facebook"
+              />
+              <span>@nathnf</span>
+            </p>
+            <p class="big-card-followers">
+              <span class="followers-number"> 1987</span>
+              <span class="followers"> followers</span>
+            </p>
+            <p class="big-card-today">
+              <img src="./static/img/icon-up.svg" alt="icon up" />12
+              <span> Today</span>
+            </p>
+          </article>
+          <article class="big-card">
+            <div class="border border-twitter"></div>
+            <p class="big-card-title">
+              <img
+                src="./static/img/icon-twitter.svg   "
+                alt="logo icon-facebook"
+              />
+              <span>@nathnf</span>
+            </p>
+            <p class="big-card-followers">
+              <span class="followers-number">1044</span>
+              <span class="followers"> followers</span>
+            </p>
+            <p class="big-card-today">
+              <img src="./static/img/icon-up.svg" alt="icon up" />99
+              <span> Today</span>
+            </p>
+          </article>
+          <article class="big-card">
+            <div class="border border-instagram"></div>
+            <p class="big-card-title">
+              <img
+                src="./static/img/icon-instagram.svg"
+                alt="logo icon-facebook"
+              />
+              <span>@realnathanf</span>
+            </p>
+            <p class="big-card-followers">
+              <span class="followers-number">11k</span>
+              <span class="followers"> followers</span>
+            </p>
+            <p class="big-card-today">
+              <img src="./static/img/icon-up.svg" alt="icon up" />1099
+              <span> Today</span>
+            </p>
+          </article>
+          <article class="big-card">
+            <div class="border border-youtube"></div>
+            <p class="big-card-title">
+              <img
+                src="./static/img/icon-youtube.svg"
+                alt="logo icon-facebook"
+              />
+              <span>Nathan F.</span>
+            </p>
+            <p class="big-card-followers">
+              <span class="followers-number">8239</span>
+              <span class="followers"> followers</span>
+            </p>
+            <p class="big-card-today negative">
+              <img src="./static/img/icon-down.svg" alt="icon up" />144
+              <span> Today</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section-b">
+      <div class="wrapper">
+        <h2 class="section-b-title">
+          Overview - Today
+        </h2>
+        <div class="grid">
+          <article class="small-card">
+            <p class="small-card-view">Page Views</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-facebook.svg" alt="" />
+            </p>
+            <p class="small-card-number">87</p>
+            <p class="small-card-percentage">
+              <span>
+                <img src="./static/img/icon-up.svg" alt="icon-down" /> 3%
+              </span>
+            </p>
+          </article>
+          <article class="small-card">
+            <p class="small-card-view">Likes</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-facebook.svg" alt="" />
+            </p>
+            <p class="small-card-number">52</p>
+            <p class="small-card-percentage">
+              <span class="negative">
+                <img src="./static/img/icon-down.svg" alt="icon-down" /> 2%
+              </span>
+            </p>
+          </article>
+          <!-- instagram -->
+          <article class="small-card">
+            <p class="small-card-view">Likes</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-instagram.svg" alt="" />
+            </p>
+            <p class="small-card-number">5462</p>
+            <p class="small-card-percentage">
+              <span>
+                <img src="./static/img/icon-up.svg" alt="icon-down" /> 2257%
+              </span>
+            </p>
+          </article>
+          <article class="small-card">
+            <p class="small-card-view">Profile Views</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-instagram.svg" alt="" />
+            </p>
+            <p class="small-card-number">52k</p>
+            <p class="small-card-percentage">
+              <span>
+                <img src="./static/img/icon-up.svg" alt="icon-down" /> 1375%
+              </span>
+            </p>
+          </article>
+          <!-- twitter -->
+          <article class="small-card">
+            <p class="small-card-view">Retweets</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-twitter.svg" alt="" />
+            </p>
+            <p class="small-card-number">117</p>
+            <p class="small-card-percentage">
+              <span>
+                <img src="./static/img/icon-up.svg" alt="icon-down" /> 303%
+              </span>
+            </p>
+          </article>
+          <article class="small-card">
+            <p class="small-card-view">Likes</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-twitter.svg" alt="" />
+            </p>
+            <p class="small-card-number">507</p>
+            <p class="small-card-percentage">
+              <span>
+                <img src="./static/img/icon-up.svg" alt="icon-down" /> 553%
+              </span>
+            </p>
+          </article>
+          <!-- Youtube -->
+          <article class="small-card">
+            <p class="small-card-view">Likes</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-youtube.svg" alt="" />
+            </p>
+            <p class="small-card-number">107</p>
+            <p class="small-card-percentage">
+              <span class="negative">
+                <img src="./static/img/icon-down.svg" alt="icon-down" /> 19%
+              </span>
+            </p>
+          </article>
+          <article class="small-card">
+            <p class="small-card-view">Total Views</p>
+            <p class="small-card-icon">
+              <img src="./static/img/icon-youtube.svg" alt="" />
+            </p>
+            <p class="small-card-number">1407</p>
+            <p class="small-card-percentage">
+              <span class="negative">
+                <img src="./static/img/icon-down.svg" alt="icon-down" /> 12%
+              </span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <script src="./static/js/app.js"></script>
+  </body>
+</html>

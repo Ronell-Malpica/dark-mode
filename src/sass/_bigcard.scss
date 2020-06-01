@@ -1,0 +1,72 @@
+.section-a {
+  margin-top: -100px;
+}
+
+.big-card {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 2em;
+  background-color: var(--big-card-bg);
+  color: var(--big-card-color);
+}
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+.border-facebook {
+  background-color: var(--Facebook);
+}
+.border-twitter {
+  background-color: var(--Twitter);
+}
+.border-instagram {
+  background: var(--Instagram);
+}
+.border-youtube {
+  background-color: var(--Youtube);
+}
+.big-card-title {
+  display: flex;
+  justify-content: center;
+  span {
+    font-weight: var(--font-weight-700);
+    margin-left: 0.5em;
+  }
+}
+// estilos  para los numeros de followers
+.big-card-followers {
+  text-align: center;
+  .followers-number {
+    font-weight: var(--font-weight-700);
+    font-size: 3.5em;
+    display: block;
+    color: var(--big-card-followers-number-color);
+  }
+  .followers {
+    font-size: 0.9em;
+    display: block;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+}
+.big-card-today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--font-weight-700);
+  color: var(--primary-lime-green);
+  margin-bottom: 0;
+  img {
+    margin-right: 0.2em;
+  }
+  span {
+    margin-left: 0.2em;
+  }
+}
+.big-card-today.negative {
+  color: var(--primary-bright-red);
+}

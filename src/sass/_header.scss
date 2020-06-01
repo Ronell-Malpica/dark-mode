@@ -1,0 +1,20 @@
+.header {
+  // border: 1px solid orange;
+  background-color: var(--header-bg);
+  padding-bottom: 100px;
+  border-radius: 0 0 1em 1em;
+}
+
+.header-title {
+  color: var(--header-title-color);
+  font-size: 1.7em;
+  margin-bottom: 0.3em;
+  font-weight: var(--font-weight-700);
+}
+.header-sub-title {
+  font-weight: var(--font-weight-700);
+  color: var(--header-sub-title-color);
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--header-border, red);
+  margin: 0;
+}

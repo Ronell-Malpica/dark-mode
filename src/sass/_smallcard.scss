@@ -1,0 +1,53 @@
+.section-b {
+  padding-bottom: 2em;
+}
+.section-b-title {
+  margin-top: 0;
+  color: var(--section-b-title-color);
+  font-size: 2em;
+}
+// styles of small card
+.small-card {
+  border-radius: 5px;
+  background-color: var(--small-card-bg);
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 2em;
+  p {
+    margin: 0;
+  }
+}
+.small-card-view {
+  color: var(--small-card-color);
+  font-weight: var(--font-weight-700);
+}
+.small-card-icon {
+  img {
+    margin-left: auto;
+  }
+}
+.small-card-number {
+  line-height: 0.9;
+  font-size: 2.5em;
+  font-weight: var(--font-weight-700);
+  color: var(--small-card-number-color);
+}
+.small-card-percentage {
+  font-weight: var(--font-weight-700);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 1em;
+  color: var(--primary-lime-green);
+  span.negative {
+    color: var(--primary-bright-red);
+  }
+}
+.small-card-percentage span {
+  display: flex;
+  align-items: center;
+}
+.small-card-percentage img {
+  margin-right: 5px;
+}

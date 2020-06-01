@@ -1,0 +1,113 @@
+:root {
+  // variables
+  // Colors
+  // ###Primary
+  --primary-lime-green: hsl(163, 72%, 42%);
+  --primary-bright-red: hsl(356, 69%, 56%);
+
+  --Facebook: hsl(203, 89%, 53%);
+  --Twitter: hsl(195, 100%, 50%);
+  --Instagram: linear-gradient(
+    to right,
+    hsl(37, 97%, 70%) 0%,
+    hsl(329, 70%, 58%) 100%
+  );
+  --Youtube: hsl(348, 97%, 39%);
+  // ### Dark theme
+  --dark-toggle: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%) 0%,
+    hsl(146, 68%, 55%)
+  );
+  // ### Light theme
+  --light-toggle: linear-gradient(
+    to right,
+    hsl(210, 78%, 56%) 0%,
+    hsl(146, 68%, 55%) 100%
+  );
+  // NEUTRAL
+  // Dark Theme
+
+  --d-very-dark-blue: hsl(230, 17%, 14%); //  (BG)
+  --d-very-dark-blue-top: hsl(232, 19%, 15%); // (Top BG Pattern )
+  --d-dark-desaturate-blue: hsl(228, 28%, 20%); //(Card BG)
+  --d-desaturate-blue: hsl(228, 34%, 66%); // (Text)
+  --d-white: hsl(0, 0%, 100%); //(Text)
+
+  // Light Theme
+  --l-white: hsl(0, 0%, 100%); // (BG)
+  --l-very-place: hsl(225, 100%, 98%); //( Top BG pattern)
+  --l-light-grayish-blue: hsl(227, 47%, 96%); // ( card BG)
+  --l-dark-grayish-blue: hsl(228, 12%, 44%); //  (text)
+  --l-very-dark-blue: hsl(230, 1%, 14%); // (text)
+
+  // typografia
+  --font-size: 14px;
+  --font-family: "Inter", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+
+  // variables para los distintos modos
+  // header
+  --header-bg: var(--l-very-place);
+  --header-sub-title-color: var(--l-dark-grayish-blue);
+  --header-border: var(--l-dark-grayish-blue);
+  --header-title-color: black;
+  // switch
+  --dark-mode-title-color: var(--l-dark-grayish-blue);
+  --switch-bg: rgb(175, 174, 174);
+  --switch-ball: var(--l-white);
+  // bigCard
+  --big-card-bg: var(--l-light-grayish-blue);
+  --big-card-color: var(--l-dark-grayish-blue);
+  --big-card-title-color: var(--l-dark-grayish-blue);
+  --big-card-followers-number-color: var(--l-very-dark-blue);
+  // smallCard
+  --small-card-bg: var(--l-light-grayish-blue);
+  --small-card-color: var(--l-dark-grayish-blue);
+  --small-card-number-color: var(--l-very-dark-blue);
+}
+//  class of body for darkMode
+
+.varibles-light-mode {
+  --body-bg: white;
+  --header-bg: var(--l-very-place);
+  --header-sub-title-color: var(--l-dark-grayish-blue);
+  --header-border: var(--l-dark-grayish-blue);
+  --header-title-color: black;
+  // switch
+  --dark-mode-title-color: var(--l-dark-grayish-blue);
+  --switch-bg: hsl(230, 22%, 74%);
+  --switch-ball: var(--l-white);
+  // bigCard
+  --big-card-bg: var(--l-light-grayish-blue);
+  --big-card-color: var(--l-dark-grayish-blue);
+  --big-card-title-color: var(--l-dark-grayish-blue);
+  --big-card-followers-number-color: var(--l-very-dark-blue);
+  // smallCard
+  --section-b-title-color: var(--l-dark-grayish-blue);
+  --small-card-bg: var(--l-light-grayish-blue);
+  --small-card-color: var(--l-dark-grayish-blue);
+  --small-card-number-color: var(--l-very-dark-blue);
+}
+.variables-dark-mode {
+  --body-bg: var(--d-very-dark-blue);
+  --header-title-color: white;
+  --header-bg: var(--d-very-dark-blue-top);
+  --header-sub-title-color: var(--d-desaturate-blue, tomato);
+  --header-border: var(--d-desaturate-blue);
+  // switch
+  --dark-mode-title-color: var(--d-desaturate-blue);
+  --switch-bg: var(--dark-toggle);
+  --switch-ball: var(--d-very-dark-blue-top);
+  // bigCard
+  --big-card-bg: var(--d-dark-desaturate-blue);
+  --big-card-color: var(--d-desaturate-blue);
+  --big-card-title-color: var(--d-desaturate-blue);
+  --big-card-followers-number-color: white;
+  // smallCard
+  --section-b-title-color: white;
+  --small-card-bg: var(--d-dark-desaturate-blue);
+  --small-card-color: var(--d-desaturate-blue);
+  --small-card-number-color: white;
+}
